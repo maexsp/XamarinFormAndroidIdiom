@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdiomDemo.Android", "IdiomD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdiomDemo.iOS", "IdiomDemo\IdiomDemo.iOS\IdiomDemo.iOS.csproj", "{D2E27342-A98F-4566-A572-0D03D42126A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdiomDemo", "IdiomDemo\IdiomDemo\IdiomDemo.csproj", "{5BAE5D2A-20FB-4566-B1D2-0EA245552A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdiomDemo", "IdiomDemo\IdiomDemo\IdiomDemo.csproj", "{5BAE5D2A-20FB-4566-B1D2-0EA245552A35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

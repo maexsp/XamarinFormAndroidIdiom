@@ -25,8 +25,11 @@ namespace IdiomDemo.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
 
+            // Initial solution using Device.Idiom, but this doesnt work for tablets with higher display zoom
+            // https://github.com/xamarin/Xamarin.Forms/issues/12624 
             PortraitModeOnPhoneUsingIdiom();
 
+            // Alternative solution. Work also for tablet with high zoom. Just adapt inches parameter to fine tune. 
             //PortraitModeOnSmallPhoneUsingDisplayMetrices();
         }
 
