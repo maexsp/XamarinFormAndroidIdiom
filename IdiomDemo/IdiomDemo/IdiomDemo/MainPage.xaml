@@ -19,6 +19,11 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+
+        <Button Text="Button A" Clicked="ButtonA_OnClicked"/>
+        <Button Text="Button B" Clicked="ButtonB_OnClicked"/>
+        <Entry x:Name="entry" Placeholder="Numeric field"/>
+        <Button Text="Compose Email" Clicked="ButtonComposeEmail"/>
     </StackLayout>
 
 </ContentPage>
