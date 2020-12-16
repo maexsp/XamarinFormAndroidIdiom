@@ -1,6 +1,6 @@
-# Demonstrate Idiom issue on Xamarin Form 4.8.0.1451, Nov 2020
+# Demonstrate Shapes issue on XF, Dec 2020
 
-XF Issue: https://github.com/xamarin/Xamarin.Forms/issues/12624 
+XF Issue: https://github.com/xamarin/Xamarin.Forms/issues/13164 
 
 
  
