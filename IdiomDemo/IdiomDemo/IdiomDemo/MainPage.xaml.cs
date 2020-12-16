@@ -14,6 +14,7 @@ namespace IdiomDemo
     public partial class MainPage : ContentPage
     {
         private int count = 0;
+        private ShapesPage shapesPage;
 
         public MainPage()
         {
@@ -53,6 +54,16 @@ namespace IdiomDemo
             {
                 throw;
             }
+        }
+
+        private void ButtonNavigateToShapes(object sender, EventArgs e)
+        {
+            if (shapesPage == null)
+            {
+                shapesPage = new ShapesPage();
+            }
+            var navPage = new NavigationPage(shapesPage);
+            Navigation.PushAsync(navPage);
         }
     }
 }

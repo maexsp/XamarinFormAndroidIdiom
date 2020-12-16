@@ -24,6 +24,8 @@
         <Button Text="Button B" Clicked="ButtonB_OnClicked"/>
         <Entry x:Name="entry" Placeholder="Numeric field"/>
         <Button Text="Compose Email" Clicked="ButtonComposeEmail"/>
+        <Button Text="Navigate to shapes Page" Clicked="ButtonNavigateToShapes"/>
+        
     </StackLayout>
 
 </ContentPage>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IdiomDemo.ShapesPage">
+    <ContentPage.Content>
+
+        <Grid>
+       
+            <ScrollView>
+                <StackLayout Orientation="Horizontal" Margin="20">
+
+                    <Rectangle Fill="Red"
+                               WidthRequest="29"
+                               HeightRequest="50"
+                               HorizontalOptions="Start" />
+
+                    <Ellipse Stroke="Red"
+                             StrokeThickness="4"
+                             WidthRequest="50"
+                             HeightRequest="50"
+                             HorizontalOptions="Start" />
+
+                    <Path Fill="Blue"
+                          Stroke="Red"
+                          StrokeThickness="1">
+                        <Path.Data>
+                            <EllipseGeometry Center="20,20"
+                                             RadiusX="20"
+                                             RadiusY="20" />
+                        </Path.Data>
+                    </Path>
+
+
+                    <Line X1="40"
+                          Y1="0"
+                          X2="0"
+                          Y2="120"
+                          Stroke="Red"
+                          StrokeThickness="1" />
+
+                    <Path Data="M 10,100 L 100,100 100,50Z"
+                          Stroke="Black"
+                          StrokeThickness="1"
+                          Aspect="Uniform"
+                          HorizontalOptions="Start" />
+
+                    <Polyline Points="0,0 10,30, 15,0 18,60 23,30 35,30 40,0 43,60 48,30 100,30"
+                              Stroke="Red"
+                              StrokeThickness="2"
+                              StrokeDashArray="1,1"
+                              StrokeDashOffset="6" />
+
+                    <Polygon Points="40,10 70,80 10,50"
+                             Fill="AliceBlue"
+                             Stroke="Green"
+                             StrokeThickness="5" />
+
+                    
+                </StackLayout>
+            </ScrollView>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
